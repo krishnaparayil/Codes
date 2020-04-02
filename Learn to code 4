@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+void main()
+{char n[50];
+char f[40];
+int a;
+  printf("name of your pet:");
+  scanf("%s",&n);
+  printf("\nage of your pet:");
+  scanf("%d",&a);
+  printf("\nfavourite food:");
+  scanf("%s",&f);
+  printf("name of the pet: %s\n age of the pet: %d\n favourite food: %s\n",n,a,f);
+ 
+}
