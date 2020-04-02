@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+void main()
+{ char n[50];
+int a;
+int b;
+int avg;
+  printf("Enter your name: \n");
+  scanf("%s",&n);
+  printf("Enter your english  marks in 100\n");
+  scanf("%d",&a);
+  printf("enter your maths marks in 100\n");
+  scanf("%d",&b);
+  
+  avg=((a+b)/200)*100;
+  printf("%s have %d percentage",n,avg);
+  
+}
