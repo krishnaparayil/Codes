@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main()
+   {
+     
+    char n[50];
+    int c,a;
+    float m;
+  
+    
+  
+    printf("Enter name: ");
+    scanf("%s",&n);
+    printf("Enter the age: ");
+    scanf("%d",&a);
+
+    printf("Enter class: ");
+    scanf("%d",&c);
+    printf("Enter marks: ");
+    scanf("%f",&m);
+
+    printf("Displaying Information:\n");
+    printf("Name:%s\n Age:%d\n Class:%d\n Marks:%f\n",n,a,c,m);
+
+    
+}
