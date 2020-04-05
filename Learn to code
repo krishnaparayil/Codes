@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-//Compiler version gcc  6.3.0
 
 void main()
 { char n[50];
@@ -14,7 +13,7 @@ int avg;
   printf("enter your maths marks in 100\n");
   scanf("%d",&b);
   
-  avg=((a+b)/200)*100;
-  printf("%s have %d percentage",n,avg);
+  avg=((a+b)/2);
+  printf("%s have  %d average mark",n,avg);
   
 }
