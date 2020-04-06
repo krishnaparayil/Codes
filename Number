@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+void main()
+{
+  int a;
+printf("Enter a number:");
+scanf("%d",&a);
+if(a>0)
+printf(" entered number is positive");
+if(a<0)
+printf("entered number is negative");
+else
+printf("entered number is zero");
+}
