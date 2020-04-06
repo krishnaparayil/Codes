@@ -1,23 +1,24 @@
-#include <studio.h>
-void main
+
+#include<stdio.h>
+void main()
 {
-Int mark, grade;
-Printf("enter the mark");
-Scanf("%d,&mark");
-If((mark>=90)&&(mark<=100)) 
-Printf("grade is A+"); 
-If((mark>=80)&&(mark<=89)) 
-Printf("grade is A"); 
-If((mark>=70)&&(mark<=79)) 
-Printf("grade is B"); 
-If((mark>=60)&&(mark<=69)) 
-Printf("grade is C"); 
-If((mark>=50)&&(mark<=59)) 
-Printf("grade is D"); 
-If((mark>=0)&&(mark<=49)) 
-Printf("grade is F"); 
+  int mark,grade;
+printf("enter the mark");
+scanf("%d",&mark);
+if((mark>=90)&&(mark<=100)) 
+printf("grade is A+"); 
+if((mark>=80)&&(mark<=89)) 
+printf("grade is A"); 
+if((mark>=70)&&(mark<=79)) 
+printf("grade is B"); 
+if((mark>=60)&&(mark<=69)) 
+printf("grade is C"); 
+if((mark>=50)&&(mark<=59)) 
+printf("grade is D"); 
+if((mark>=0)&&(mark<=49)) 
+printf("grade is F"); 
 else
-Printf("invalid mark");
+printf("invalid mark");
 
 
 
