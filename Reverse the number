@@ -1,0 +1,11 @@
+int n,d,m;
+printf("enter the number");
+scanf("%d",&n);
+m=0;
+X=n;
+while(n>0)
+{ 
+d=n%10;
+n=n/10;
+m=m*10+d;}
+printf("reverse is %d",m);
