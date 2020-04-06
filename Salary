@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+
+ void main()
+{
+  int b,da,ta,n;
+printf("Enter the basic salary: \n");
+scanf("%d",&b);
+da=b/10;
+ta=(b*(12/100));
+n=b+da+ta;
+printf("the net salary is %d",n);
+}
